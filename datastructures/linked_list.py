@@ -18,6 +18,8 @@ class LinkedList:
         current.next = new_node;
 
     def remove(self, key):
+        if(self.head.data == key):
+            self.head = self.head.next
         current = self.head
         previous = current
         while(current):
@@ -55,14 +57,3 @@ class LinkedList:
         while(current):
             print(current.data , ' ')
             current = current.next
-
-if __name__ == '__main__':
-    llist = LinkedList()
-
-    llist.add(1)
-    llist.add(2)
-    llist.add(3)
-    llist.remove(2)
-    llist.add(5)
-    llist.print_list()
-    print("Length", llist.len_list())
