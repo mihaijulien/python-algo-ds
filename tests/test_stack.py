@@ -1,8 +1,8 @@
 import pytest
-from datastructures.stack import Stack
+from datastructures.stack import StackA
 
-def test_list():
-    stack = Stack()
+def test_stack():
+    stack = StackA()
     assert stack.is_empty() is True
     stack.push(1)
     assert stack.is_empty() is False

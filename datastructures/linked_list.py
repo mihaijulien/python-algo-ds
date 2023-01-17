@@ -52,8 +52,14 @@ class LinkedList:
                 current = current.next
         return False
 
-    def print_list(self):
-        current = self.head
-        while(current):
-            print(current.data , ' ')
-            current = current.next
+    def __str__(self):
+        res = ""
+        current_node = self.head
+        while current_node is not None:
+            res += str(current_node.value) + "-> "
+            current_node = current_node.next
+
+        if len(res):
+            return "[" + res + "]"
+        else:
+            return "[]"

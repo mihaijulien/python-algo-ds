@@ -1,8 +1,8 @@
 import pytest
-from datastructures.queue import Queue
+from datastructures.queue import QueueA
 
-def test_list():
-    queue = Queue()
+def test_queue():
+    queue = QueueA()
     assert queue.is_empty() is True
     queue.enqueue(1)
     assert queue.is_empty() is False

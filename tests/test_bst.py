@@ -1,8 +1,9 @@
 import pytest
-from datastructures.binary_search_tree import BinarySearchTree
+from datastructures.binary_search_tree import RecursiveBinarySearchTree
 
 def test_tree():
-	bst = BinarySearchTree(10)
+	bst = RecursiveBinarySearchTree()
+	bst.insert(10)
 	assert bst.get_height() == 1
 
 	bst.insert(5)
