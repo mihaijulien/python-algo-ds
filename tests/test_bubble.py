@@ -1,5 +1,5 @@
 import pytest
-from algorithms.bubble_sort import BubbleSort
+from search_sort.bubble_sort import BubbleSort
 
 array_under_test = [9,8,7,6,5,4,3,2,1]
 expected = [1,2,3,4,5,6,7,8,9]
