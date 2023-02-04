@@ -1,5 +1,5 @@
 import pytest
-from datastructures.binary_search_tree import RecursiveBinarySearchTree
+from lib.datastructures.binary_search_tree import RecursiveBinarySearchTree
 
 def test_tree():
 	bst = RecursiveBinarySearchTree()

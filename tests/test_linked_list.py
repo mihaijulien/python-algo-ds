@@ -1,5 +1,5 @@
 import pytest
-from datastructures.linked_list import LinkedList
+from lib.datastructures.linked_list import LinkedList
 
 def test_list():
 	llist = LinkedList()

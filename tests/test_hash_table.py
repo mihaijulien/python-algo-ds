@@ -1,5 +1,5 @@
 import pytest
-from datastructures.hash_table import HashTable
+from lib.datastructures.hash_table import HashTable
 
 def test_hash_table():
     hash_table = HashTable()

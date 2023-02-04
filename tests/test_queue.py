@@ -1,5 +1,5 @@
 import pytest
-from datastructures.queue import QueueA
+from lib.datastructures.queue import QueueA
 
 def test_queue():
     queue = QueueA()

@@ -1,5 +1,5 @@
 import pytest
-from datastructures.heap import MinHeap
+from lib.datastructures.heap import MinHeap
 
 def test_min_heap():
     heap = MinHeap()
